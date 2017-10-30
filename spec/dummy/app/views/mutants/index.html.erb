@@ -1,0 +1,9 @@
+<h1>Mutants#index page.</h1>
+
+<% micro_session['bar'] = 'Wolverine' %>
+
+<b>MicroSession custom link</b>
+<%= ms_link_to mutant_path(id: 'bar'), id: 'micro_session_link' %>
+
+<b>Rails standard link</b>
+<%= link_to mutant_path(id: 'bar'), id: 'rails_standard_link' %>
