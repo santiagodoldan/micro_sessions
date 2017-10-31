@@ -2,6 +2,7 @@
 *.sqlite
 *.log
 *.gem
+gemfiles/*.lock
 tmp/*
 vendor/*
 Manifest
