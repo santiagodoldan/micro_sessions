@@ -4,6 +4,9 @@ module MicroSessionable
   extend ActiveSupport::Concern
 
   included do
+    helper LinkToHelper
+    helper FormTagHelper
+
     helper_method :micro_session
   end
 

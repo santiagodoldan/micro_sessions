@@ -1,6 +1,6 @@
 module MicroSession
   class Store
-    delegate :empty?, :[], :[]=, :to_h, :to_hash, :inspect, to: :data
+    delegate :empty?, :to_h, :to_hash, :inspect, to: :data
 
     def initialize(controller)
       @controller = controller
@@ -10,6 +10,14 @@ module MicroSession
       @controller.session[MicroSession.key] ||= {}
       @controller.session[MicroSession.key][id] ||= {}
       @controller.session[MicroSession.key][id].symbolize_keys!
+    end
+
+    def [](key)
+      data[key.to_sym]
+    end
+
+    def []=(key, value)
+      data[key.to_sym] = value
     end
 
     def url_options
