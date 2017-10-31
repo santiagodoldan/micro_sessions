@@ -5,8 +5,8 @@ require 'micro_session/version'
 Gem::Specification.new do |spec|
   spec.name        = 'micro_sessions'
   spec.version     = MicroSession::VERSION
-  spec.author      = 'Ben Hughes'
-  spec.email       = 'ben@railsgarden.com'
+  spec.authors     = ['Ben Hughes', 'Santiago Doldan']
+  spec.email       = 'santiagodolte@gmail.com'
   spec.homepage    = 'http://github.com/santiagodoldan/micro_sessions'
   spec.summary     = 'Keyed sessions within the global sessions object.'
   spec.description = "Provides 'micro-sessions' within the global sessions object keyed off an identifier."
