@@ -1,6 +1,6 @@
 module MicroSession
   class << self
-    alias setup tap
+    alias configure tap
 
     mattr_accessor :param, :key, :param_type, :length, :counter
 
