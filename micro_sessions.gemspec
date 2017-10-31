@@ -11,6 +11,8 @@ Gem::Specification.new do |spec|
   spec.summary     = 'Keyed sessions within the global sessions object.'
   spec.description = "Provides 'micro-sessions' within the global sessions object keyed off an identifier."
 
+  spec.license = 'MIT'
+
   spec.files        = Dir['{lib,spec}/**/*', '[A-Z]*']
   spec.require_path = %w(lib)
 
