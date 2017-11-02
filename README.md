@@ -1,6 +1,6 @@
 # Micro Sessions
 
-[![Build Status](https://secure.travis-ci.org/rubiety/micro_sessions.png?branch=master)](http://travis-ci.org/rubiety/micro_sessions)
+[![Build Status](https://secure.travis-ci.org/santiagodoldan/micro_sessions.png?branch=master)](http://travis-ci.org/santiagodoldan/micro_sessions)
 
 **DEPRECATION WARNING: micro_session 0.4.0 includes breaking changes, for previous versions see [Readme](https://github.com/santiagodoldan/micro_sessions/wiki/micro_sessions---=-0.3.0-%5BREADME%5D).**
 
